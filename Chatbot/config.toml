@@ -1,0 +1,44 @@
+[global]
+# Development mode
+developmentMode = false
+
+[server]
+# Server settings
+port = 8501
+baseUrlPath = ""
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+enableStaticServing = true
+runOnSave = false
+allowRunOnSave = false
+headless = false
+
+[browser]
+# Browser settings
+serverAddress = "localhost"
+gatherUsageStats = false
+showErrorDetails = false
+serverPort = 8501
+
+[ui]
+# Hide Streamlit elements
+hideTopBar = true
+hideSidebarNav = true
+
+[theme]
+# Custom theme
+primaryColor = "#667eea"
+backgroundColor = "transparent"
+secondaryBackgroundColor = "rgba(255, 255, 255, 0.1)"
+textColor = "#000000"
+font = "sans serif"
+
+[client]
+# Client settings
+caching = true
+displayEnabled = true
+showErrorDetails = false
+toolbarMode = "minimal"

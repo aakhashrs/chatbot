@@ -1,0 +1,33 @@
+# Core dependencies
+langchain
+langchain-community
+langchain-huggingface>=0.0.6
+
+# LLM and embeddings
+transformers
+torch
+accelerate
+bitsandbytes
+sentence-transformers
+
+# Torch with CUDA support
+--find-links https://download.pytorch.org/whl/cu118
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Vector store
+faiss-cpu
+
+# Web scraping
+beautifulsoup4
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Web server
+flask
+streamlit
+
+# Utilities
+python-dotenv
+numpy
